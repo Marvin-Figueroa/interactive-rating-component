@@ -40,6 +40,7 @@ This is my solution to the [Interactive rating component challenge on Frontend M
 - Desktop-First approach
 - SASS
 - BEM
+- JavaScript
 - Basic DOM Manipulation
 - Basic Event Handling
 
