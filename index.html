@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="icon-container">
+        <img src="images/icon-star.svg" alt="" class="card__icon" />
+      </div>
+      <h1 class="card__title">How did we do?</h1>
+      <p class="card__description">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <form class="card__ratings" action="thankyou.html" method="GET">
+        <div class="ratings-container">
+          <input type="radio" name="rating" id="rating-1" value="1" />
+          <label class="rating-lbl" for="rating-1">1</label>
+          <input type="radio" name="rating" id="rating-2" value="2" />
+          <label class="rating-lbl" for="rating-2">2</label>
+          <input type="radio" name="rating" id="rating-3" value="3" />
+          <label class="rating-lbl" for="rating-3">3</label>
+          <input type="radio" name="rating" id="rating-4" value="4" />
+          <label class="rating-lbl" for="rating-4">4</label>
+          <input type="radio" name="rating" id="rating-5" value="5" />
+          <label class="rating-lbl" for="rating-5">5</label>
+        </div>
+        <input class="card__btn" type="submit" value="SUBMIT" disabled />
+      </form>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
